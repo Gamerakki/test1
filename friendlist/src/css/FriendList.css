@@ -1,0 +1,82 @@
+.friendContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-left: 20px; */
+    width: 380px;
+    height: 150px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    /* width: 250px; */
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 1px 33px 11px rgba(141, 127, 127, 0.75);
+    -webkit-box-shadow: 0px 1px 33px 11px rgba(141, 127, 127, 0.75);
+    -moz-box-shadow: 0px 1px 33px 11px rgba(141, 127, 127, 0.75);
+}
+
+
+
+
+.friendContainer:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+
+.friendNamesList {}
+
+.starDiv {
+    color: red
+}
+
+.friendActionsButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row
+}
+
+button {
+    padding: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sperationDiv{
+    width:2%;
+    height:10px
+  }
+
+  .loader{
+      height:100vh;
+      width:100%;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+  }
+
+  .loaderGif {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
